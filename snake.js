@@ -43,7 +43,7 @@ class Snake
             newRect = 
             {
                 x: this.tail[this.tail.length - 1].x,
-                y: this.tail[this.tail.length -1].y - this.size
+                y: this.tail[this.tail.length - 1].y - this.size
             }
 
             this.tail.shift()
